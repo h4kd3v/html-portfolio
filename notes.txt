@@ -1,0 +1,36 @@
+# Notes File
+
+This is the text file where is save my notes.
+
+Commands :
+
+git status  (To see what we have changed in Local working copy)
+
+git add .   (Track all file changes)
+
+git commit -m "Header" -m "Message for the commit"  (Commit your local changes to GIT)
+
+ssh-keygen -t rsa -b 4096 -c "test@gmail.com"   (Command to generate SSH keys)
+
+// Save your public key under Github SSH key section.
+
+Start ssh-agent in background and add your private key in terminal so you can push code anytime locally.
+
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/githubSSHkeys/githubkeys
+
+git push origin main            (Command to push your code in the main branch)
+
+git init                    (Initialise the Git Repository)
+
+git remote add origin  git@github.com:h4kd3v/repo1.git      (Add Reference of path as where to push this new local project)
+
+git remote -v                      (View the new changes added by above command)
+
+git push -u origin main            (Commit to the origin branch,also after using -u, in future u can only use $ git push )
+
+git branch                          ( To see the branches, also * means currently on that branch )
+
+git checkout -b feature-branch      ( Make a new branch )
+
+
