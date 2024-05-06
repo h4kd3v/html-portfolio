@@ -39,4 +39,5 @@ git merge feature-branch            (Merge the two branches, here feature and ma
 
 git push -u origin feature-branch   (Push to specific branch)
 
+git pull origin main                (Pull chnages in the main branch)
 
