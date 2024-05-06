@@ -41,3 +41,5 @@ git push -u origin feature-branch   (Push to specific branch)
 
 git pull origin main                (Pull chnages in the main branch)
 
+git branch -d feature-branch
+
