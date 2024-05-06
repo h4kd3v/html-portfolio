@@ -33,4 +33,11 @@ git branch                          ( To see the branches, also * means currentl
 
 git checkout -b feature-branch      ( Make a new branch )
 
+git checkout main                   (Switch to main branch)
+
+git merge feature-branch            (Merge the two branches, here feature and main branch)
+
+git push -u origin feature-branch   (Push to specific branch)
+
+git pull origin main                (Pull chnages in the main branch)
 
