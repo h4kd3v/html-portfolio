@@ -49,4 +49,9 @@ git diff main                       (Compare current branch's changes with main)
 
 git commit -am "Added new commands"    (Adds and commits at same time, only works with modified, not newly created)
 
+<<<<<<< HEAD
 # Trying to make conflicts bewteen branches
+=======
+# Creating new Confilcts
+
+>>>>>>> main
