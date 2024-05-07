@@ -51,3 +51,5 @@ git commit -am "Added new commands"    (Adds and commits at same time, only work
 
 
 
+# Trying to make conflicts bewteen branches
+
