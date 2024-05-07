@@ -41,5 +41,11 @@ git push -u origin feature-branch   (Push to specific branch)
 
 git pull origin main                (Pull chnages in the main branch)
 
-git branch -d feature-branch
+git branch -d feature-branch        (Delete an existing branch)
+
+git diff                            (Shows changes made from last commit)
+
+git commit -am "Added new commands"    (Adds and commits at same time, only works with modified, not newly created)
+
+
 
