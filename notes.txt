@@ -49,9 +49,11 @@ git diff main                       (Compare current branch's changes with main)
 
 git commit -am "Added new commands"    (Adds and commits at same time, only works with modified, not newly created)
 
-<<<<<<< HEAD
-# Trying to make conflicts bewteen branches
-=======
+git reset                           (Reverses Changes, unstages files)
+
+git reset HEAD~1                    (Resverse the last one commit)
+
 # Creating new Confilcts
 
->>>>>>> main
+# Reversing Changes in GIT
+
