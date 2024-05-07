@@ -45,6 +45,8 @@ git branch -d feature-branch        (Delete an existing branch)
 
 git diff                            (Shows changes made from last commit)
 
+git diff main                       (Compare current branch's changes with main)
+
 git commit -am "Added new commands"    (Adds and commits at same time, only works with modified, not newly created)
 
 
